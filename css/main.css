@@ -1,0 +1,37 @@
+@media screen {
+	body, html {
+		margin: 0;
+		border: 0;
+		padding: 0;
+	}
+	body {
+		font-family: arial;
+		font-size: 12pt;
+	}
+	#wrapper {
+		width: 700px;
+		margin: auto;
+		border-left: 1px solid #CECECE;
+	}
+	p {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.comment {
+		color: #A3A3A3;
+		margin-top: 50px;
+	}
+	h1 {
+		background: #CECECE;
+		padding: 30px;
+		border-top-right-radius: 5px;
+		border-bottom-right-radius: 5px;
+	}
+	footer {
+		margin-top: 20px;
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		text-align: center;
+	}
+}

@@ -1,0 +1,34 @@
+/****************************************************************************************/
+/* GENERAL ICON SETTINGS                                                                */
+/****************************************************************************************/
+i.icon {
+	font-style: normal;
+	display: inline-block;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.icon::before {
+	float: left;
+}
+
+.icon::after {
+	clear: both;
+}
+
+i.icon-block {
+	display: block;
+	position: initial;
+}
+
+
+/****************************************************************************************/
+/* ICONS                                                                                */
+/****************************************************************************************/
+.icon-delete::before {
+	content: url('../icons/delete.png');
+}
+
+.icon-letter:before {
+	content: url("../icons/letter.png");
+}
