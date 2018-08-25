@@ -1,0 +1,46 @@
+/****************************************************************************************/
+/* GENERAL ICON SETTINGS                                                                */
+/****************************************************************************************/
+i.icon {
+	font-style: normal;
+	display: inline-block;
+	position: relative;
+	vertical-align: bottom;
+}
+
+.icon::before {
+	float: left;
+}
+
+.icon::after {
+	clear: both;
+}
+
+i.icon-block {
+	display: block;
+	position: initial;
+}
+
+/****************************************************************************************/
+/* FONT HANDLING                                                                        */
+/****************************************************************************************/
+@font-face {
+	font-family: no;
+	src: url('../icons/no.tiff');
+}
+
+
+/****************************************************************************************/
+/* ICONS - Make sure the images match the font-size for you webpage for best alignment! */
+/****************************************************************************************/
+.icon-delete::before {
+	content: url('../icons/delete.png');
+}
+
+.icon-letter:before {
+	content: url("../icons/letter.png");
+}
+
+.icon-no-tiff::before {
+	font-family: no;
+}
